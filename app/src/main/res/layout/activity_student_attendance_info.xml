@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".profile_activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:id="@+id/abcde"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/attendance_info_sem_spinner"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/attendance_info_find_button"
+            style="@style/Base.Widget.AppCompat.Button.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/profile_spinner"
+            android:layout_weight="8"
+            android:background="@color/colorPrimary"
+            android:text="find"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+    <Spinner
+        android:id="@+id/attendance_info_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/attendance_info_subject" />
+
+    <ListView
+        android:id="@+id/attendance_info_listView"
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/generateINFO"
+        android:layout_marginBottom="44dp"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:hint="Selected Students"
+        android:textColorHint="@color/buttonColor" />
+
+    <Spinner
+        android:id="@+id/attendance_info_subject"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/abcde" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/attendance_info_name"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/generateINFO"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/divider4"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="8"
+        android:text="Generate Attendance"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/save_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_weight="8"
+        android:background="@color/colorPrimary"
+        android:text="Save - Exit"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">"Teacher ka Assistant"</string>
+
+    <string name="Credits"><u><b>"CREDITS"</b></u>"\n\n" "Edward Masih\nAditya Kanouje\nSaransh Sharma\nHoney Choudhary"</string>
+
+    <!-- SUBJECT NAMES -->
+    <string-array name="sub_sem3">
+        <item>Select Subject...</item>
+        <item>Basic Electronics</item>
+        <item>CCWT</item>
+        <item>Computational Science and Fuzzy Logic</item>
+        <item>C Programming</item>
+        <item>DELD</item>
+        <item>M3</item>
+    </string-array>
+
+    <string-array name="sub_sem4">
+        <item>Select Subject...</item>
+        <item>C++</item>
+        <item>CSA</item>
+        <item>Computational Mathematics</item>
+        <item>Data Structure</item>
+        <item>Discrete Mathematics</item>
+        <item>Operating System</item>
+    </string-array>
+
+    <string-array name="sub_sem5">
+        <item>Select Subject...</item>
+        <item>ADA</item>
+        <item>DBMS</item>
+        <item>JAVA</item>
+        <item>MPI</item>
+        <item>TOP</item>
+        <item>UNIX</item>
+    </string-array>
+
+    <string-array name="sub_sem6">
+        <item>Select Subject...</item>
+        <item>Compiler Design</item>
+        <item>Computer Graphics</item>
+        <item>Computer Network</item>
+        <item>ERP</item>
+        <item>SEPM</item>
+        <item>TCP/IP</item>
+    </string-array>
+
+    <string-array name="sub_sem7">
+        <item>Select Subject...</item>
+        <item>Cloud Computing</item>
+        <item>Cryptography</item>
+        <item>Mobile Computing and Application</item>
+        <item>Network Programming</item>
+        <item>Parallel Processors and Computing</item>
+    </string-array>
+
+    <string-array name="sub_sem8">
+        <item>Select Subject...</item>
+        <item>Artificial Intelligence and Expert System</item>
+        <item>Data Mining and Warehousing</item>
+        <item>Cyber Security</item>
+        <item>Decision Support System</item>
+        <item>Internet and Multimedia</item>
+    </string-array>
+
+</resources>
