@@ -6,7 +6,7 @@ A basic attendance management app with notes, and sms sender with other informat
 > 2. Register & Edit > SignUp Button ( logic not designed )
 > 3. Attendance Info > Generate Attendance Button (bug)
 
-'feel free to fix & contribute'
+`feel free to fix & contribute`
 
 ## Pull Requests
 
