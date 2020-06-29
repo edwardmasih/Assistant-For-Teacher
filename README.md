@@ -1,5 +1,5 @@
 # Assistant-For-Teacher
-A basic attendance management app with notes, and sms sender with other informations.
+A basic attendance management android app with notes, and sms sender with other informations.
 
 _This was a minor project I've been working on while I was in 3rd year of my engineering. I haven't completed all the functions it should work, some of them are listed under `issues`._
 
